@@ -1,0 +1,19 @@
+episode_number: 43
+episode_title: Tales from the bionic SOCMan with Mark Orlando
+episode_hosts:
+- handle: "@Understudy77"
+- handle: "@ExiledAtraidez"
+episode_guests:
+- handle: "@markaorlando"
+
+detections:
+- title: 
+  description: >
+    
+  timestamp: "40:35"
+  references:
+  - 
+  ATT&CK_urls:
+  - 
+  ATT&CK_tags:
+  - 
