@@ -7,13 +7,23 @@ episode_guests:
 - handle: "@markaorlando"
 
 detections:
-- title: 
+- title: HTTP Header Data Anomalies
   description: >
-    
+    Even in today's SSL encrypted world, it's helpful to look at HTTP header data. There is a ton of great information
+    and detections that you can get out of that data source. In fact, Jack Crook (with GE-CIRT), was discussing on 
+    Twitter about generating statistics for all the different URIs that you see for HTTP POST methods and picking out 
+    badness based on deviations.
   timestamp: "40:52"
   references:
-  - 
+  - https://twitter.com/jackcr/status/1311683893481869318
+  - https://www.sans.org/reading-room/whitepapers/detection/http-header-heuristics-malware-detection-34460
   ATT&CK_urls:
-  - 
+  - https://attack.mitre.org/techniques/T1071/001/
+  - https://attack.mitre.org/techniques/T1505/003/
+  - https://attack.mitre.org/techniques/T1105/
+  - https://attack.mitre.org/software/S0388/
   ATT&CK_tags:
-  - 
+  - T1071.001
+  - T1505.003
+  - T1105
+  - S0388
